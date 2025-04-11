@@ -22,6 +22,9 @@ namespace GitProject
             Console.WriteLine(Id);
             Console.WriteLine(Name);
         }
+
+        public void EmployeeSearch(){
+        }
     }
 }
 
