@@ -17,6 +17,11 @@ namespace GitProject
             Id= Convert.ToInt32(Console.ReadLine());
             Name = Console.ReadLine();
         }
+        public void DisplayEmployeeDetails()
+        {
+            Console.WriteLine(Id);
+            Console.WriteLine(Name);
+        }
     }
 }
 
