@@ -10,6 +10,13 @@ namespace GitProject
     {
         public int Id { get; set; }
         public string Name { get; set; }
-
+        
+       public void GetEmployeeInfo()
+        {
+            Console.WriteLine("Enter the Employee Id");
+            Id= Convert.ToInt32(Console.ReadLine());
+            Name = Console.ReadLine();
+        }
     }
 }
+
